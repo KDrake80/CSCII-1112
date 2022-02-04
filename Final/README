@@ -1,0 +1,25 @@
+# Barter
+## Motivation
+I built added onto my previous Final Project. Updated it with GUI. I want to write Apps, and Websites. So I created this program as a trial Program
+## How to Run
+To run this program you will need JavaFX installed into you IDE, as well as Need the three Classes, Account, Item, and Barter. Finally you will need the images saved to this as well for it to show properly
+![Image of Items on your Account](https://raw.githubusercontent.com/KDrake80/CSCII-1112/7ef7a347dca31b81050d5973a7fb944d06367141/Final/2022-02-03.png)
+## Code Example
+```
+		fpButtons.getChildren().addAll(btBuy, btBack);
+		fpButtons.setAlignment(Pos.CENTER);
+		fpButtons.setHgap(15);
+		ObservableList<String> items = FXCollections.observableArrayList(itemNames);
+		cboItems.getItems().addAll(items);
+		BorderPane bpForCbo = new BorderPane();
+		bpForCbo.setLeft(new Label("Select an Item: "));
+		bpForCbo.setPadding(new Insets(15));
+		lblItem.setContentDisplay(ContentDisplay.BOTTOM);
+		taDescription.setWrapText(true);
+		taDescription.setEditable(false);
+		taDescription.setPrefSize(100, 125);
+```
+## Tests
+Basically just follow what the buttons say. Try not to double click the buttons. Or add any extra items or accounts.
+## Contributors
+https://github.com/KDrake80
